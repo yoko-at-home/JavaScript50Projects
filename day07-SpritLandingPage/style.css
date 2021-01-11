@@ -2,7 +2,6 @@
 
 :root {
   --left-bg-color:rgba(87,84,236,0.7);
-  --left-bg-color:rgba(87,84,236,0.7);
   --right-bg-color:rgba(43,43,43, 0.7);
   /* --left-btn-hover-color:rgba(87,84,236,1); */
   --left-btn-hover-color:rgb(213, 236, 84);
@@ -36,6 +35,7 @@ h1 {
 }
 h1:hover {
   color: var(--left-btn-hover-color);
+  text-shadow:8px 0 8px var(--left-btn-hover-color)
 }
 h2 {
   font-size: 4rem;
@@ -48,7 +48,8 @@ h2 {
   text-transform: uppercase;
 }
 h2:hover {
-  color: #333;
+  color: rgb(122, 28, 33);
+  text-shadow: 15px 0 15px rgb(90, 2, 2);
 }
 
 .btn {

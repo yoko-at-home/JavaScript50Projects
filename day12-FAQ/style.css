@@ -39,7 +39,7 @@ a {
   padding: 30px;
   position: relative;
   overflow: hidden;
-  transition: 0.5s ease;
+  transition: 0.3s ease;
 }
 
 .faq.active {
@@ -80,8 +80,10 @@ a {
 
 .faq.active .faq-text {
   display: block;
-  transition: 0.5s ease;
+  animation: 0.5s ease;
+  /* transition: 0.3s ease; */
 }
+
 .faq-ul {
   display: none;
   margin: 30px 0 0;
@@ -107,12 +109,12 @@ a {
   right:30px;
   height: 30px;
   width:30px;
-  transition: 0.5s ease;
+  transition: 0.3s ease;
 }
 
 .faq-toggle:focus{
   outline: 0;
-  transition: 0.5s ease;
+  transition: 0.3s ease;
   box-shadow: -3px -3px 10px #ffffffb2, 3px 3px 5px #ffffffb2;
 }
 
